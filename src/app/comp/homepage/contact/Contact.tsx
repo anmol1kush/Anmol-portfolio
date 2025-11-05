@@ -33,42 +33,50 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setLoading(true);
+ const handleSubmit = (e: React.FormEvent) => {
+  e.preventDefault();
+  setLoading(true);
 
-    emailjs
-      .send(
-        "service_ba1fuyw",
-        "template_zp82mif",
+  // 1️⃣ Send to You
+  emailjs
+    .send(
+      "service_s92a4is",
+      "template_x3mprji",
+      {
+        from_name: form.name,
+        from_email: form.email,
+        message: form.message,
+        to_name: "Anmol",
+      },
+      "0tbEXV-PNSLRcEdYZ"
+    )
+    .then(() => {
+      // 2️⃣ Send Auto Reply
+      return emailjs.send(
+        "service_s92a4is",
+        "template_sqa36t9",
         {
           from_name: form.name,
-          to_name: "Anmol",
           from_email: form.email,
-          to_email: "anmolkush1506@gmail.com",
           message: form.message,
+          to_name: "Anmol",
         },
-        "jDXCcJ_KVS3mGWaKN"
-      )
-      .then(
-        () => {
-          setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
-
-          setForm({
-            name: "",
-            email: "",
-            message: "",
-          });
-        },
-        (error) => {
-          setLoading(false);
-          console.error(error);
-
-          alert("Something went wrong. Please try again.");
-        }
+        "0tbEXV-PNSLRcEdYZ"
       );
-  };
+    })
+    .then(() => {
+      setLoading(false);
+      alert("Thank you. I will get back to you as soon as possible.");
+
+      setForm({ name: "", email: "", message: "" });
+    })
+    .catch((error) => {
+      setLoading(false);
+      console.error(error);
+      alert("Something went wrong. Please try again.");
+    });
+};
+
 
   return (
     <div className="w-screen min-h-screen">
