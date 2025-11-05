@@ -111,35 +111,35 @@ const projects = [
   image: 'Coming-Soon.jpg', // You will need to add a file with this name
   source_code_link: "https://github.com/anmol1kush", // Change this if it's in a different repo
 },
- {
-  name: "FAQ & Support Chatbot",
-  description:
-    "A custom chatbot built with React, Node.js, and MongoDB, designed to answer specific questions from a pre-defined knowledge base. Instead of using costly live AI, it intelligently matches user queries to a database of stored questions and answers, providing instant, accurate support. Features a responsive UI with smooth message animations and auto-scroll.",
-  tags: [
-    {
-      name: "react",
-      color: "blue-text-gradient",
-    },
-    {
-      name: "nodejs",
-      color: "green-text-gradient",
-    },
-    {
-      name: "mongodb",
-      color: "green-text-gradient",
-    },
-    {
-      name: "tailwind",
-      color: "pink-text-gradient",
-    },
-    {
-      name: "expressjs",
-      color: "blue-text-gradient",
-    },
-  ],
-  image: 'Coming-Soon.jpg', // You will need to add a file with this name
-  source_code_link: "https://github.com/anmol1kush", // Change this if it's in a different repo
-},
+//  {
+//   name: "FAQ & Support Chatbot",
+//   description:
+//     "A custom chatbot built with React, Node.js, and MongoDB, designed to answer specific questions from a pre-defined knowledge base. Instead of using costly live AI, it intelligently matches user queries to a database of stored questions and answers, providing instant, accurate support. Features a responsive UI with smooth message animations and auto-scroll.",
+//   tags: [
+//     {
+//       name: "react",
+//       color: "blue-text-gradient",
+//     },
+//     {
+//       name: "nodejs",
+//       color: "green-text-gradient",
+//     },
+//     {
+//       name: "mongodb",
+//       color: "green-text-gradient",
+//     },
+//     {
+//       name: "tailwind",
+//       color: "pink-text-gradient",
+//     },
+//     {
+//       name: "expressjs",
+//       color: "blue-text-gradient",
+//     },
+//   ],
+//   image: 'Coming-Soon.jpg', // You will need to add a file with this name
+//   source_code_link: "https://github.com/anmol1kush", // Change this if it's in a different repo
+// },
 ];
 
 type ProjectCardProps = {
