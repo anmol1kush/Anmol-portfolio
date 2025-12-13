@@ -62,8 +62,8 @@ const projects = [
       color: "pink-text-gradient",
     },
   ],
-  image: 'Coming-Soon.jpg', // You will need to add a file with this name
-  source_code_link: "https://github.com/anmol1kush",
+  image: 'main2.png', // You will need to add a file with this name
+  source_code_link: "https://github.com/anmol1kush/AIFusion",
 },
   {
   name: "Hospital Management System",
@@ -83,8 +83,8 @@ const projects = [
       color: "pink-text-gradient",
     },
   ],
-  image: 'Coming-Soon.jpg', // You will need to add a file with this name
-  source_code_link: "https://github.com/anmol1kush", // Change this if it's in a different repo
+  image: 'Hospital.png', // You will need to add a file with this name
+  source_code_link: "https://github.com/anmol1kush/Hospital_Management_System", // Change this if it's in a different repo
 },
  {
   name: "Hotel Management System",
@@ -108,8 +108,8 @@ const projects = [
       color: "green-text-gradient",
     },
   ],
-  image: 'Coming-Soon.jpg', // You will need to add a file with this name
-  source_code_link: "https://github.com/anmol1kush", // Change this if it's in a different repo
+  image: 'main.png', // You will need to add a file with this name
+  source_code_link: "https://github.com/anmol1kush/Hotel-management-system", // Change this if it's in a different repo
 },
 //  {
 //   name: "FAQ & Support Chatbot",
