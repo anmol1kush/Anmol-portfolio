@@ -16,10 +16,10 @@ type Service = {
 };
 
 const services: Service[] = [
+  { title: "Software Developer", icon: "/creator.png" },
+  { title: "Fullstack Developer", icon: "/mobile.png" },
   { title: "Frontend Developer", icon: "/web.png" },
   { title: "Backend Developer", icon: "/backend.png" },
-  { title: "Fullstack Developer", icon: "/mobile.png" },
-  { title: "Web Developer", icon: "/creator.png" },
 ];
 
 type ServiceCardProps = {
