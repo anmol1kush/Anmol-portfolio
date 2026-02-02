@@ -18,7 +18,7 @@ type Skill = {
 const skills: Skill[] = [
   // Frontend Technologies
   { name: "React", icon: "⚛️", color: "#61DAFB", category: "Frontend" },
-  { name: "Next.js", icon: "▲", color: "#fffff", category: "Frontend" },
+  // { name: "Next.js", icon: "▲", color: "#fffff", category: "Frontend" },
   // { name: "TypeScript", icon: "🔷", color: "#3178C6", category: "Frontend" },
   { name: "JavaScript", icon: "🟨", color: "#F7DF1E", category: "Frontend" },
   { name: "HTML5", icon: "🌐", color: "#E34F26", category: "Frontend" },
